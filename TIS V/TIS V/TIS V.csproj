@@ -282,6 +282,7 @@
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\TIS V.csproj.CoreCompileInputs.cache" />
     <Content Include="obj\Debug\TIS V.csprojResolveAssemblyReference.cache" />
+    <Content Include="Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\demo\chart-area-demo.js" />
     <Content Include="Scripts\demo\chart-bar-demo.js" />
@@ -1868,7 +1869,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -2026,6 +2026,7 @@
     <Content Include="Views\Jogos\Details.cshtml" />
     <Content Include="Views\Jogos\Edit.cshtml" />
     <Content Include="Views\Jogos\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
