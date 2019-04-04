@@ -2,30 +2,47 @@
     ViewBag.Title = "Home Page";
 }
 
+<head>
+    <style>
+    .jumbotron { background-image: url("/img/telaHomeFutebol(1).jpg");
+    }
+
+        .lead {
+            font-size: x-large;
+            -webkit-text-stroke-color: black; /* cor da borda */
+            -webkit-text-stroke-width: 0.4px; /* largura da borda */
+        }
+    </style>
+
+</head>
+
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1 style="color: ghostwhite">FutScore</h1>
+    <p class="lead" style="color: black">
+        Controle mais facilmente seus torneios de futebol com FutScore! <br>
+        Diversas ferramentas como armazenamento de escalações, jogadores, equipes e muito mais! <br>
+        Totalmente gratuito!
+    </p>
+    <p><a href="/Jogos/Index" class="btn btn-info btn-lg">Adicionar novo jogo</a></p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2>Adicione novos jogadores</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+          Adicione novos jogadores para compor os seus times do campeonato!
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <p><a class="btn btn-info btn-lg" href="~/Views/Jogador/Create.cshtml">Adicionar jogador</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>Depois adicione novos times</h2>
+        <p>Adicione novos times para participarem do seu torneio! </p>
+        <p><a class="btn btn-info btn-lg" href="~/Views/Equipes/Create.cshtml">Adicionar time</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>E por final adicione novos jogos!</h2>
+        <p>Você pode colocar diversos dados do jogo. Como cartões, faltas, escanteios e etc!</p>
+        <p><a class="btn btn-info btn-lg" href="~/Views/Jogos/Create.cshtml">Adicionar jogo</a></p>
     </div>
 </div>
+
