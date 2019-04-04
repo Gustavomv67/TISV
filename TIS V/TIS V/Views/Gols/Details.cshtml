@@ -1,0 +1,50 @@
+﻿@model TISV.Models.Gols
+
+@{
+     
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Gols</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.falta)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.falta)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.penalti)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.penalti)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.escanteio)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.escanteio)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

@@ -149,9 +149,18 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Contexto\TIS_VContext.cs" />
+    <Compile Include="Controllers\CartaoController.cs" />
     <Compile Include="Controllers\EquipesController.cs" />
+    <Compile Include="Controllers\EscalacaoController.cs" />
+    <Compile Include="Controllers\EscanteiosController.cs" />
+    <Compile Include="Controllers\FaltasController.cs" />
+    <Compile Include="Controllers\GolsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JogadorController.cs" />
     <Compile Include="Controllers\JogosController.cs" />
+    <Compile Include="Controllers\PenaltisController.cs" />
+    <Compile Include="Controllers\ResultadosController.cs" />
+    <Compile Include="Controllers\SubstituicaoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -162,6 +171,10 @@
     <Compile Include="Migrations\201903162058416_initial1.cs" />
     <Compile Include="Migrations\201903162058416_initial1.Designer.cs">
       <DependentUpon>201903162058416_initial1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904040609406_gol.cs" />
+    <Compile Include="Migrations\201904040609406_gol.Designer.cs">
+      <DependentUpon>201904040609406_gol.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cartao.cs" />
@@ -2027,6 +2040,51 @@
     <Content Include="Views\Jogos\Edit.cshtml" />
     <Content Include="Views\Jogos\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Jogador\Create.cshtml" />
+    <Content Include="Views\Jogador\Delete.cshtml" />
+    <Content Include="Views\Jogador\Details.cshtml" />
+    <Content Include="Views\Jogador\Edit.cshtml" />
+    <Content Include="Views\Jogador\Index.cshtml" />
+    <Content Include="Views\Resultados\Create.cshtml" />
+    <Content Include="Views\Resultados\Delete.cshtml" />
+    <Content Include="Views\Resultados\Details.cshtml" />
+    <Content Include="Views\Resultados\Edit.cshtml" />
+    <Content Include="Views\Resultados\Index.cshtml" />
+    <Content Include="Views\Cartao\Create.cshtml" />
+    <Content Include="Views\Cartao\Delete.cshtml" />
+    <Content Include="Views\Cartao\Details.cshtml" />
+    <Content Include="Views\Cartao\Edit.cshtml" />
+    <Content Include="Views\Cartao\Index.cshtml" />
+    <Content Include="Views\Escalacao\Create.cshtml" />
+    <Content Include="Views\Escalacao\Delete.cshtml" />
+    <Content Include="Views\Escalacao\Details.cshtml" />
+    <Content Include="Views\Escalacao\Edit.cshtml" />
+    <Content Include="Views\Escalacao\Index.cshtml" />
+    <Content Include="Views\Escanteios\Create.cshtml" />
+    <Content Include="Views\Escanteios\Delete.cshtml" />
+    <Content Include="Views\Escanteios\Details.cshtml" />
+    <Content Include="Views\Escanteios\Edit.cshtml" />
+    <Content Include="Views\Escanteios\Index.cshtml" />
+    <Content Include="Views\Faltas\Create.cshtml" />
+    <Content Include="Views\Faltas\Delete.cshtml" />
+    <Content Include="Views\Faltas\Details.cshtml" />
+    <Content Include="Views\Faltas\Edit.cshtml" />
+    <Content Include="Views\Faltas\Index.cshtml" />
+    <Content Include="Views\Gols\Create.cshtml" />
+    <Content Include="Views\Gols\Delete.cshtml" />
+    <Content Include="Views\Gols\Details.cshtml" />
+    <Content Include="Views\Gols\Edit.cshtml" />
+    <Content Include="Views\Gols\Index.cshtml" />
+    <Content Include="Views\Penaltis\Create.cshtml" />
+    <Content Include="Views\Penaltis\Delete.cshtml" />
+    <Content Include="Views\Penaltis\Details.cshtml" />
+    <Content Include="Views\Penaltis\Edit.cshtml" />
+    <Content Include="Views\Penaltis\Index.cshtml" />
+    <Content Include="Views\Substituicao\Create.cshtml" />
+    <Content Include="Views\Substituicao\Delete.cshtml" />
+    <Content Include="Views\Substituicao\Details.cshtml" />
+    <Content Include="Views\Substituicao\Edit.cshtml" />
+    <Content Include="Views\Substituicao\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2051,6 +2109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903162058416_initial1.resx">
       <DependentUpon>201903162058416_initial1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904040609406_gol.resx">
+      <DependentUpon>201904040609406_gol.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

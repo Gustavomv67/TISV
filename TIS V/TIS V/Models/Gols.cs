@@ -17,6 +17,9 @@ namespace TISV.Models
         [DisplayName("Jogador")]
         public Jogador jogador { get; set; }
 
+        [DisplayName("A favor de qual time?")]
+        public Equipe time { get; set; }
+
         [DisplayName("Falta")]
         public bool falta { get; set; }
 
