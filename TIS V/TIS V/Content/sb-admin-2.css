@@ -10889,6 +10889,7 @@ a:focus {
   font-weight: 900;
   content: '\f105';
   font-family: 'Font Awesome 5 Free';
+  background-color: aqua;
 }
 
 .sidebar .nav-item.dropdown.show .dropdown-toggle::after,

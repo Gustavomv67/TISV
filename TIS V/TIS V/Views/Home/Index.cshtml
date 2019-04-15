@@ -2,21 +2,30 @@
     ViewBag.Title = "Home Page";
 }
 
-<head>
-    <style>
-    .jumbotron { background-image: url("/img/telaHomeFutebol(1).jpg");
-    }
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        .lead {
-            font-size: x-large;
-            -webkit-text-stroke-color: black; /* cor da borda */
-            -webkit-text-stroke-width: 0.4px; /* largura da borda */
-        }
-    </style>
+        <style>
+            .jumbotron {
+                background-image: url("/img/telaHomeFutebol(1).jpg");
+            }
 
-</head>
+            .lead {
+                font-size: x-large;
+                -webkit-text-stroke-color: black; /* cor da borda */
+                -webkit-text-stroke-width: 0.4px; /* largura da borda */
+            }
+
+
+            .btn {
+                background-color: darkgreen;
+            }
+        </style>
+
+    </head>
 
 <div class="jumbotron">
+
     <h1 style="color: ghostwhite">FutScore</h1>
     <p class="lead" style="color: black">
         Controle mais facilmente seus torneios de futebol com FutScore! <br>
@@ -45,4 +54,5 @@
         <p><a class="btn btn-info btn-lg" href="~/Views/Jogos/Create.cshtml">Adicionar jogo</a></p>
     </div>
 </div>
+
 
