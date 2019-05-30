@@ -26,5 +26,7 @@ namespace Contexto
         public System.Data.Entity.DbSet<TISV.Models.Gols> Gols { get; set; }
         public System.Data.Entity.DbSet<TISV.Models.Resultado> Resultado { get; set; }
         public System.Data.Entity.DbSet<TISV.Models.Subtituicao> Subtituicao { get; set; }
+
+        public System.Data.Entity.DbSet<TIS_V.Models.Usuario> Usuarios { get; set; }
     }
 }

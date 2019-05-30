@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIS V", "TIS V\TIS V.csproj", "{F19B1C70-C786-4A1B-87A0-85A14EDAE7C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFutScore", "..\..\APIFutScore\APIFutScore\APIFutScore.csproj", "{888975AF-BD33-4297-95F0-D5176CBED12F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F19B1C70-C786-4A1B-87A0-85A14EDAE7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F19B1C70-C786-4A1B-87A0-85A14EDAE7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F19B1C70-C786-4A1B-87A0-85A14EDAE7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888975AF-BD33-4297-95F0-D5176CBED12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888975AF-BD33-4297-95F0-D5176CBED12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888975AF-BD33-4297-95F0-D5176CBED12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888975AF-BD33-4297-95F0-D5176CBED12F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
